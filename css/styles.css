@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.navbar h3{
+    color: gray;
+}
+
+.header-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner{
+    margin-bottom: 100px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+#date{
+    background-color:#f7f7f7;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.listing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.image img{
+    height: 100px
+}
+button{
+    background-color: #ebb625;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
